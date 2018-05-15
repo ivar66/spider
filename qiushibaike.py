@@ -22,7 +22,9 @@ for divTemp in divs:
     print 'author:' + joke
     print 'content:' + contentSpan
     print 'statsVote: ' + statsVote
-
-    print divTemp.find(class_='articleGender manIcon')
+    age = divTemp.find(class_='articleGender manIcon')
+    if age != None:
+        print 'age:' + age.get_text()
+        print  age
 
     print '---------------------------'
