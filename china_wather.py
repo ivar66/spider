@@ -21,4 +21,4 @@ for conMidtab2_list in conMidtab2_lists:
     province_tr = tr_list[2]
     td_list = province_tr.find_all('td')
     province_td = td_list[0]
-    print province_td.text
+    print province_td.text.replace('\n', '')
