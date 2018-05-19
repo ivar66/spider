@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 import time
 import json
 
-from echarts import Echart, Bar, Axis
+from echarts import Echart,Bar,Axis
 
 TEMPER_LIST = []
 CITY_LIST = []
